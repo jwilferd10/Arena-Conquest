@@ -1,4 +1,4 @@
-# Jest-Another-RPG
+# Arena Conquest
 
 ## 📂 Table of Contents 
 - [Description](#wave-description)
