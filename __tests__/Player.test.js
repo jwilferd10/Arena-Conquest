@@ -44,6 +44,12 @@ test("gets player's AC value", () => {
     expect(player.AC).toEqual(expect.any(Number));
 });
 
+test("gets player's GP amount", () => {
+    const player = new Player('Dave');
+
+    expect(player.gp).toEqual(expect.any(Number));
+})
+
 test("gets player's health value", () => {
     const player = new Player('Dave');
 
