@@ -15,7 +15,10 @@ Coming Soon!
 Coming Soon!
 
 ## :floppy_disk: Resources Used
-Coming Soon!
+- JavaScript
+- Node.js
+- Inquirer
+- Jest 
 
 ## :minidisc: Usage
 Requires `node` to play this game
