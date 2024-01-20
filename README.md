@@ -9,7 +9,7 @@
 - [Contact Information](#e-mail-contact-information)
 
 ## :wave: Description
-Welcome to Arena Conquest, a text-based game brought to life with the help of inquirer. Enter into an arena, join a tournament, and fight monsters to earn fame and gold!
+Welcome to Arena Conquest, a text-based game brought to life with the help of inquirer. Enter into an arena, join a tournament, and fight monsters to earn fame and gold! Build to practice both TDD and OOP
 
 ## :open_book: User Story
 Coming Soon!
