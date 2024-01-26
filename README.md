@@ -9,7 +9,7 @@
 - [Contact Information](#e-mail-contact-information)
 
 ## :wave: Description
-Welcome to Arena Conquest, a text-based game brought to life with the help of inquirer. Enter into an arena, join a tournament, and fight monsters to earn fame and gold! Build to practice both TDD and OOP
+Welcome to Arena Conquest, in this text-based game users create a character that enters into a tournament to fight against monsters to build fame and collect gold. Fight through multiple creatures and visit a merchant's shop to purchase weapons and armor to help in the next round. Will you achieve absolute victory?
 
 ## :open_book: User Story
 Coming Soon!
