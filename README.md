@@ -11,6 +11,13 @@
 ## :wave: Description
 Welcome to Arena Conquest, in this text-based game users create a character that enters into a tournament to fight against monsters to build fame and collect gold. Fight through multiple creatures and visit a merchant's shop to purchase weapons and armor to help in the next round. Will you achieve absolute victory?
 
+### :rocket: Features:
+- Powered by Inquirer, used throughout the game
+- TDD capable thanks to Jest
+
+### 🙏 Thank You!
+So much for your interest in Arena Conquest. I've worked to ensure this project brings some entertainment to the player. Thanks again and happy coding!
+
 ## :open_book: User Story
 Coming Soon!
 
