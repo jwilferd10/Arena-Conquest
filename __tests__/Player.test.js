@@ -40,6 +40,15 @@ test('gets inventory from player or returns false', () => {
     expect(player.getInventory()).toEqual(false);
 });
 
+test("get's player's AB value", () => {
+    const player = new Player('Dave');
+
+    // expect(player.ab).toEqual(expect.any(Number));
+    expect(player.getAttackBonus()).toBeLessThanOrEqual(5);
+
+    console.log('Player AB is: ' + player.ab);
+});
+
 test("get's player's BA value", () => {
     const player = new Player('Dave');
 
