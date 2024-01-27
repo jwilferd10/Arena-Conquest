@@ -27,8 +27,8 @@ test("gets player's stats as an object", () => {
     expect(player.getStats()).toHaveProperty('ac');
     expect(player.getStats()).toHaveProperty('gp');
     expect(player.getStats()).toHaveProperty('ba');
-    expect(player.getStats()).toHaveProperty('ab');
-})
+    expect(player).toHaveProperty('getAttackBonus');
+});
 
 test('gets inventory from player or returns false', () => {
     const player = new Player('Dave');
