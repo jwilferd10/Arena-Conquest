@@ -27,7 +27,7 @@ test("gets player's stats as an object", () => {
     expect(player.getStats()).toHaveProperty('ac');
     expect(player.getStats()).toHaveProperty('gp');
     expect(player.getStats()).toHaveProperty('ba');
-    expect(player).toHaveProperty('getAttackBonus');
+    expect(player).toHaveProperty('calculateAttackChance');
 });
 
 test('gets inventory from player or returns false', () => {
@@ -44,9 +44,9 @@ test("get's player's AB value", () => {
     const player = new Player('Dave');
 
     // expect(player.ab).toEqual(expect.any(Number));
-    expect(player.getAttackBonus()).toBeLessThanOrEqual(5);
+    expect(player.calculateAttackChance()).toEqual(expect.any(Number));
 
-    console.log('Player AB is: ' + player.ab);
+    console.log('Player updated attack chance is: ' + player.BA);
 });
 
 test("get's player's BA value", () => {
