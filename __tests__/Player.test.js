@@ -42,11 +42,11 @@ test('gets inventory from player or returns false', () => {
 
 test("get's player's AB value", () => {
     const player = new Player('Dave');
+    const attackBonus = player.calculateAttackChance() + player.BA;
 
-    // expect(player.ab).toEqual(expect.any(Number));
-    expect(player.calculateAttackChance()).toEqual(expect.any(Number));
+    expect(attackBonus).toEqual(expect.any(Number));
 
-    console.log('Player updated attack chance is: ' + player.BA);
+    console.log('Player updated attack chance is: ' + attackBonus);
 });
 
 test("get's player's BA value", () => {
