@@ -44,8 +44,16 @@ List of Improvements:
 So much for your interest in Arena Conquest. I've worked to ensure this project brings entertainment to the player and also provide detail comments in-case a programmer wants to make their own adjustments. Thank you always, happy coding! 
 
 ## :open_book: User Story
-Coming Soon!
+AS A gamer I WANT a text-based RPG that I can play SO THAT I can experience a classic gaming experience.
 
+GIVEN a command-line game
+- WHEN I launch Arena Conquest,
+    - THEN I expect to be greeted with an engaging narrative introducing me to the world of the tournament.
+- WHEN I create my character and enter the arena,
+    - THEN I anticipate facing challenging opponents, strategizing my battles, and earning fame and gold with each victory.
+- WHEN I interact with merchants,
+    - THEN I hope to discover a variety of weapons, armor, and items to enhance my character's abilities and chances of success.
+      
 ## :floppy_disk: Resources Used
 - JavaScript
 - Node.js
